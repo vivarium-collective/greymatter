@@ -18,10 +18,14 @@ def hello(name):
 def greet(name):
     print(f'This is {name}')
 
+def yet_another_function(world):
+    print(f'what is {world}')
+
 
 if __name__ == "__main__":
     hello("world")
     greet('edwin')
     main()
     tasnif()
+    yet_another_function('Earth')
 
