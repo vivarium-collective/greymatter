@@ -18,6 +18,9 @@ def hello(name):
 def greet(name):
     print(f'This is {name}')
 
+def new_func(name, number):
+    print(f"My name is {name} and my favorite number is {number}")
+
 def yet_another_function(world):
     print(f'what is {world}')
 
@@ -27,5 +30,6 @@ if __name__ == "__main__":
     greet('edwin')
     main()
     tasnif()
+    new_func("Chris", 5)
     yet_another_function('Earth')
 
