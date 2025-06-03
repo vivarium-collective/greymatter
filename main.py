@@ -1,12 +1,8 @@
 def main():
     print("Hello from greymatter!")
 
-def hello(name):
-    print(f'This is {name}')
-
-
-if __name__ == "__main__":
-    hello("edwin")
+def tasnif():
+    print("Tasnif was here!")
 
 def conflict_test():
     print("do nothing")
@@ -14,7 +10,13 @@ def conflict_test():
 def hello(name):
     print(f'hello {name}!')
 
+def greet(name):
+    print(f'This is {name}')
+
 
 if __name__ == "__main__":
-    hello('world')
+    hello("world")
+    greet('edwin')
     # main()
+    tasnif()
+
