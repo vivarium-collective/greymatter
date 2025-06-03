@@ -6,6 +6,22 @@ def main():
     username = input("Enter your username: ")
     greet_user(username)
 
+def tasnif():
+    print("Tasnif was here!")
+
+def conflict_test():
+    print("do nothing")
+
+def hello(name):
+    print(f'hello {name}!')
+
+def greet(name):
+    print(f'This is {name}')
+
 
 if __name__ == "__main__":
-    main()
+    hello("world")
+    greet('edwin')
+    # main()
+    tasnif()
+
