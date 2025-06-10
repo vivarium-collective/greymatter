@@ -15,6 +15,9 @@ def maya():
 def conflict_test():
     print("do nothing")
 
+def tanvir():
+    print("Tanvir was here")
+
 def hello(name):
     print(f'hello {name}!')
 
@@ -36,4 +39,4 @@ if __name__ == "__main__":
     new_func("Chris", 5)
     yet_another_function('Earth')
     maya()
-
+    tanvir()
