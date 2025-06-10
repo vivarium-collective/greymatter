@@ -9,6 +9,9 @@ def main():
 def tasnif():
     print("Tasnif was here!")
 
+def maya():
+    print("Maya added this")
+
 def conflict_test():
     print("do nothing")
 
@@ -32,4 +35,5 @@ if __name__ == "__main__":
     tasnif()
     new_func("Chris", 5)
     yet_another_function('Earth')
+    maya()
 
